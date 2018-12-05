@@ -1,9 +1,21 @@
-const fill = document.querySelector('.fill');
+const fill = document.querySelector('.foto');
 const empties = document.querySelectorAll('.empty');
-
+console.log(fill);
 // Fill listeners
 fill.addEventListener('dragstart', dragStart);
 fill.addEventListener('dragend', dragEnd);
+
+// arreglo
+let imagenes = [];
+imagenes [0] = 'img/ariel.jpg';
+imagenes[1] = 'img/blancanieves.png';
+imagenes[2] = 'img/cenicienta.png';
+imagenes[3] = 'img/merida.png';
+imagenes[4] = 'img/tiana.png';
+imagenes[5] = 'img/bella.png';
+
+document.fill = imagenes;
+document.fill2 = imagenes[1];
 
 // Loop through empty boxes and add listeners
 for (const empty of empties) {
