@@ -5,7 +5,7 @@ let counter = 0;
 // arreglo
 let imagenes = [
   'ariel.jpg',
-  'blancanieves.png',
+  'mulan.jpg',
   'cenicienta.jpg',
   'merida.jpg',
   'tiana.png',

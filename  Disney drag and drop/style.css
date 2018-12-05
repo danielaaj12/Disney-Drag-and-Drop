@@ -1,5 +1,12 @@
-body {
-    background: rgb(46, 50, 100);
+  body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+  .princesas{
+    background:cover;
+    background-image: url('https://webgradients.com/public/webgradients_png/008%20Rainy%20Ashville.png');
+    max-width: 100%;
   }
   
   .fill {
@@ -18,21 +25,39 @@ body {
   }
   
   .empty {
-    display: inline-block;
+   
     height: 160px;
     width: 160px;
     margin: 10px;
-    border: solid 3px rgb(46, 50, 100);
+    border: solid 3px rgb(58, 6, 82);
     background: white;
   }
 
+  h1,h2,p{
+    color: white;
+  }
 
+  h1{
+    text-align: center;
+    margin: 84px;
+    padding: 25px;
+    font-family: 'Oleo Script', cursive;
+  }
+
+  h2,p{
+    font-family:'Cuprum', sans-serif;
+  }
+  
   .hovered {
     background: #f4f4f4;
     border-style: dashed;
   }
 .foto{
-  display: inline;
+  display: inline-block;
+  padding: 31px;
+  margin: -4;
+  
+
 }
 .foto1{
   display: inline;
