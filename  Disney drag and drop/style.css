@@ -1,5 +1,5 @@
 body {
-    background: darksalmon;
+    background: rgb(46, 50, 100);
   }
   
   .fill {
@@ -22,12 +22,33 @@ body {
     height: 160px;
     width: 160px;
     margin: 10px;
-    border: solid 3px salmon;
+    border: solid 3px rgb(46, 50, 100);
     background: white;
   }
-  
+
+
   .hovered {
     background: #f4f4f4;
     border-style: dashed;
   }
-  
+.foto{
+  display: inline;
+}
+.foto1{
+  display: inline;
+}
+.foto2{
+  display: inline;
+}
+.foto3{
+  display: inline;
+}
+.foto4{
+  display: inline;
+}
+.foto5{
+  display: inline;
+}
+.foto6{
+  display: inline;
+}
